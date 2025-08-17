@@ -1,0 +1,12 @@
+# --- Core ML stack ---
+numpy>=1.19,<1.22
+pandas>=1.1,<1.5
+scikit-learn==1.0.2
+matplotlib<3.6
+joblib>=1.1
+tqdm>=4.60
+
+# --- Fairness & Explainability ---
+shap==0.41.0
+lime==0.2.0.1
+fairlearn==0.8.0
